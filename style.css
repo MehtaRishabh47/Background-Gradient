@@ -1,0 +1,63 @@
+body {
+	font-family: 'Raleway', sans-serif, 'Varela Round';
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, blue, red);
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    /* width: 40px; */
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+input{
+    cursor: pointer;
+}
+
+h4{
+        /* width: 40px; */
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+@media screen and (max-width:450px){
+    body {
+        padding: 20px;
+        /* font-size:20    px; */
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+         
+    }
+    h1 {
+        font: 600 1.6em 'Raleway', sans-serif;
+        letter-spacing: .4em;
+        margin: 50px 0;
+    }
+    input{
+        margin-bottom: 30px;
+    }
+    h2{
+        font:1.3em"Varela Round";
+        font-weight: 600;
+    }
+}
